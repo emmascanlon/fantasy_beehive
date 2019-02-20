@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sport: MyString
+  season: MyString
+  year: 1
+  player1: MyString
+  player2: MyString
+  player3: MyString
+  player4: MyString
+  player5: MyString
+  player6: MyString
+  player7: MyString
+  player8: MyString
+  player9: MyString
+  player10: MyString
+  player11: MyString
+  player12: MyString
+  player13: MyString
+  player14: MyString
+  player15: MyString
+
+two:
+  name: MyString
+  sport: MyString
+  season: MyString
+  year: 1
+  player1: MyString
+  player2: MyString
+  player3: MyString
+  player4: MyString
+  player5: MyString
+  player6: MyString
+  player7: MyString
+  player8: MyString
+  player9: MyString
+  player10: MyString
+  player11: MyString
+  player12: MyString
+  player13: MyString
+  player14: MyString
+  player15: MyString
