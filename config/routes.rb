@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'teams#index'
+  root 'static_pages#home'
+  get '/about', to: 'static_pages#about'
+
   resources:teams
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
 end
