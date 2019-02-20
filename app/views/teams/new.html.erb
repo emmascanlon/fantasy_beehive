@@ -1,2 +1,56 @@
-<h1>Teams#new</h1>
-<p>Find me in app/views/teams/new.html.erb</p>
+<h1>Add New Team </h1>
+<br>
+
+<%= form_for @team do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :sport %>
+  <%= f.text_field :sport %>
+  <br><%= f.label :season %>
+  <%= f.text_field :season %>
+  <br><%= f.label :year %>
+  <%= f.text_field :year %>
+  <br><%= f.label :player1 %>
+  <%= f.text_field :player1 %>
+  <br><%= f.label :player2 %>
+  <%= f.text_field :player2 %>
+  <br><%= f.label :player3%>
+  <%= f.text_field :player3 %>
+  <br><%= f.label :player3%>
+  <%= f.text_field :player3 %>
+  <br><%= f.label :player4%>
+  <%= f.text_field :player4 %>
+  <br><%= f.label :player5%>
+  <%= f.text_field :player5 %>
+  <br><%= f.label :player6%>
+  <%= f.text_field :player6 %>
+  <br><%= f.label :player7%>
+  <%= f.text_field :player7 %>
+  <br><%= f.label :player8%>
+  <%= f.text_field :player8%>
+  <br><%= f.label :player9%>
+  <%= f.text_field :player9 %>
+  <br><%= f.label :player9%>
+  <%= f.text_field :player9 %>
+  <br><%= f.label :player9%>
+  <%= f.text_field :player9 %>
+  <br><%= f.label :player9%>
+  <%= f.text_field :player9 %>
+  <br><%= f.label :player9%>
+  <%= f.text_field :player9 %>
+  <br><%= f.label :player10%>
+  <%= f.text_field :player10 %>
+  <br><%= f.label :player11%>
+  <%= f.text_field :player11 %>
+  <br><%= f.label :player12%>
+  <%= f.text_field :player12 %>
+  <br><%= f.label :player13%>
+  <%= f.text_field :player13 %>
+  <br><%= f.label :player14%>
+  <%= f.text_field :player14 %>
+  <br><%= f.label :player15%>
+  <%= f.text_field :player15 %>
+  <br>
+  <%= f.submit %>
+  <% end %>

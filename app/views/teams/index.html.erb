@@ -1,4 +1,5 @@
 <h1>Teams</h1>
+<%= link_to "Add New Team", new_team_path %>
 <% @teams.each do |team| %>
   <h2><%= team.name %></h2>
   <%= link_to 'Show', team_path(team) %>
